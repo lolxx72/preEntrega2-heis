@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alkalami', serif;;
+
+}
+ 
+/* Header/ Footer */
+
+header {
+    background-color: #ffe9f0;
+
+}
+
+footer {
+    background-color: #ffe9f0;
+}
+main {
+    background-color: #f8afb8;
+}
+
+.buttonsnav {
+    margin-left: 500px;
+}
+button {
+    margin-bottom: 2em;
+    margin-left: 5em ;
+    margin-top: 3em;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #f368a0;
+    background-color: #f8afb8;
+    justify-content: center;
+    align-content: initial
+}
+
+.button-nav {
+    color: black;
+    background-color: #f8afb8;
+    text-decoration: none;
+}
+
+.logofooter {
+
+    width: 30vw;
+    height: 40vh;
+    display: inline;
+}
+
+.logoheader {
+    width: 15vw;
+    height: 25vh;
+    display: inline;
+}
+
+.cont-footer {
+    display: inline-block;
+}
+
+#button-nav {
+    margin-left: 55em;
+    margin-top: -15em;
+}
+  
+#nosotros-footer {
+    font-size: 20px;
+    margin-left: 17em;
+    margin-top: 6em;
+}
+
+#tienda-footer  {
+    font-size: 20px;
+    margin-left: 32em;
+    margin-top: -9em;
+    margin-bottom: 7em;
+}
+
+#logo-footer  {
+    margin-left: 75em;
+    margin-top: -20em;
+}
+
+#logo-header {
+    margin-top: -3em;
+    margin-bottom: 2em;
+
+}
+
+aside div ul li a {
+    color: #f368a0;
+}
+/* Pagina principal / index.html */
+
+
+.inicio-design {
+    width: 100%;
+    height: 100%;
+}
+
+.text-desc {
+    margin: 2em;
+    margin-bottom: 0em;
+    font-family: 'Alkalami', serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Sección dos / servicios-dh.html */
+
+.servicios {
+    text-align: center;
+    font-family: 'Alkalami', serif;;
+}
+
+.servicio-uno {
+    color: aliceblue;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    background-color: #ab687b;
+    padding: 2em 2em;
+    margin-left: 5em ;
+    margin-right: 5em ;
+}
+
+.servicio-dos {
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2em;
+    background-color: #ab687b;
+    margin-left: 5em ;
+    margin-right: 5em ;
+}
+
+.servicio-tres {
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2em;
+    background-color: #ab687b;
+    margin-left: 5em ;
+    margin-right: 5em ;
+
+}
+
+.servicio-cuatro {
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2em;
+    background-color: #ab687b;
+    margin-left: 5em ;
+    margin-right: 5em ;
+
+}
+
+.servicio-cinco {
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2em;
+    background-color: #ab687b;
+    margin-left: 5em ;
+    margin-right: 5em ;
+}
+
+/*  Sección tres /  tienda-dh.html */
+
+.bienvenida {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#productos {
+    margin-left: 18em;
+    margin-bottom: 5em;
+}
+
+.producto {
+    height: 35vh;
+    width: 20vw;
+}
+
+#categorias {
+    background-color: #ffdee5;
+    padding: 2em;
+    margin-right: 100em;
+    margin-top: -20em;
+}
+
+/* Sección cuatro /  contacto-dh.html */
+
+.titulo-contact {
+    font-size: 50px;
+    text-align: center;
+}
+
+.form-consulta {
+      display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin: auto;
+
+
+  width: 475px;
+
+  padding: 10em 10em;
+
+
+}
+
+.consultas-envio {
+    margin-left: 20em;
+    margin-top: -13em;
+}
+
+/* Sección cinco /  blog.html */
+
+.encabezado-blog {
+    text-shadow: 2px 2px  #ce286b;
+    font-size: 50px;
+    margin-left: 5em ;
+
+}
+
+.blog-h2 {
+    font-size: 30px;
+    margin-left: 4em; 
+}
+
+#noticias-blog {
+    background-color: #f09bad;
+    margin: 2em  2em 0 2em;
+    margin-top: 4em;
+    padding: 4em;
+}
+
+.noticia-uno, .noticia-dos, .noticia-tres {
+    color: #ce286b;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.blog-notice {
+    font-size: 25px;
+}
+
+.noticia {
+    margin: 1em;
+    border: 1px  dashed #ce286b;
+}
+
+
