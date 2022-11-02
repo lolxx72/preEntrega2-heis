@@ -4,7 +4,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Alkalami', serif;;
+    font-family: 'Alkalami', serif;
 
 }
  
@@ -15,104 +15,134 @@ header {
 
 }
 
-footer {
-    background-color: #ffe9f0;
-}
 main {
     background-color: #f8afb8;
 }
 
-.buttonsnav {
-    margin-left: 500px;
-}
-button {
+.button {
+    transition: ease-in .3s;
     margin-bottom: 2em;
     margin-left: 5em ;
     margin-top: 3em;
-    padding: 15px;
-    border-radius: 5px;
-    border: 1px solid #f368a0;
+    padding: 5px;
+    border-radius: 7px;
+    border: 1px dashed #f368a0;
     background-color: #f8afb8;
     justify-content: center;
     align-content: initial
 }
 
-.button-nav {
-    color: black;
-    background-color: #f8afb8;
-    text-decoration: none;
+.button > a:hover {
+    color: #ce286b;
 }
 
-.logofooter {
-
-    width: 30vw;
-    height: 40vh;
-    display: inline;
+.button:hover {
+    transform: scale(1.5);
 }
 
-.logoheader {
+.logoHeader {
     width: 15vw;
     height: 25vh;
     display: inline;
 }
 
-.cont-footer {
-    display: inline-block;
-}
-
-#button-nav {
-    margin-left: 55em;
-    margin-top: -15em;
-}
-  
-#nosotros-footer {
-    font-size: 20px;
-    margin-left: 17em;
-    margin-top: 6em;
-}
-
-#tienda-footer  {
-    font-size: 20px;
-    margin-left: 32em;
-    margin-top: -9em;
-    margin-bottom: 7em;
-}
-
-#logo-footer  {
-    margin-left: 75em;
-    margin-top: -20em;
-}
 
 #logo-header {
-    margin-top: -3em;
+    margin-top: -30px;
     margin-bottom: 2em;
 
 }
 
-aside div ul li a {
+.textColor{
     color: #f368a0;
-}
+  }
+  
+  .fondoFooter{
+    background-color:#ffe9f0;
+  }
+  
+  .text-footer {
+     color:#f368a0;
+  }
+  
+  .text-social  {
+    color:#f368a0
+  }
+
+
+
 /* Pagina principal / index.html */
 
 
 .inicio-design {
     width: 100%;
     height: 100%;
+    animation: fade-in-left;
+    animation-name: slidein;
+    animation-duration: 3s;
 }
+
+@keyframes slidein  {
+    from {
+        margin-left: 100%;
+        width: 300%
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+    }
+
 
 .text-desc {
     margin: 2em;
-    margin-bottom: 0em;
+    margin-bottom: -50px;
     font-family: 'Alkalami', serif;
     font-size: 25px;
     text-align: center;
+    animation: zoom-in;
+    animation-name: zoom;
+    animation-duration: 2s;
 }
 
+@keyframes zoom {
+    0% {
+        transform: scale(1, 1);
+      }
+      50% {
+        transform: scale(1.5, 1.5);
+      }
+      100% {
+        transform: scale(1, 1);
+      }
+    }
+
+@media (max-width: 768px) { 
+    .logoHeader {
+        width: 25vw;
+    height: 15vh;
+    display: inline;
+    justify-content: center;
+    }
+    .text-desc  {
+        font-size: 15px;
+    }
+ }
 /* Sección dos / servicios-dh.html */
 
 .servicios {
     text-align: center;
-    font-family: 'Alkalami', serif;;
+    font-family: 'Alkalami', serif;
+    padding: 50px;
+    animation: zoom-in;
+    animation-name: zoom;
+    animation-duration: 2s;
+}
+
+.conteinerServicios {
+    margin-bottom: -50px;
+    padding: 50px;
 }
 
 .servicio-uno {
@@ -120,10 +150,13 @@ aside div ul li a {
     font-weight: 100;
     font-size: 20px;
     text-align: center;
-    background-color: #ab687b;
+    background-color: #df90a6;
     padding: 2em 2em;
     margin-left: 5em ;
     margin-right: 5em ;
+    animation: fade-in-left;
+    animation-name: slidein;
+    animation-duration: 3s;
 }
 
 .servicio-dos {
@@ -132,9 +165,13 @@ aside div ul li a {
     font-size: 20px;
     text-align: center;
     margin-top: 2em;
+    padding: 20px;
     background-color: #ab687b;
     margin-left: 5em ;
     margin-right: 5em ;
+    animation: fade-in-right;
+    animation-name: slideout;
+    animation-duration: 3s;
 }
 
 .servicio-tres {
@@ -143,9 +180,13 @@ aside div ul li a {
     font-size: 20px;
     text-align: center;
     margin-top: 2em;
-    background-color: #ab687b;
+    padding: 20px;
+    background-color: #df90a6;
     margin-left: 5em ;
     margin-right: 5em ;
+    animation: fade-in-left;
+    animation-name: slidein;
+    animation-duration: 3s;
 
 }
 
@@ -155,9 +196,13 @@ aside div ul li a {
     font-size: 20px;
     text-align: center;
     margin-top: 2em;
+    padding: 20px;
     background-color: #ab687b;
     margin-left: 5em ;
     margin-right: 5em ;
+    animation: fade-in-right;
+    animation-name: slideout;
+    animation-duration: 3s;
 
 }
 
@@ -167,11 +212,26 @@ aside div ul li a {
     font-size: 20px;
     text-align: center;
     margin-top: 2em;
-    background-color: #ab687b;
+    padding: 20px;
+    background-color: #df90a6;
     margin-left: 5em ;
     margin-right: 5em ;
+    animation: fade-in-left;
+    animation-name: slidein;
+    animation-duration: 3s;
 }
 
+@keyframes slideout {
+    from {
+        margin-right: 110%;
+        width: 300%
+      }
+    
+      to {
+        margin-right: 15%;
+        width: 100%;
+      }
+}
 /*  Sección tres /  tienda-dh.html */
 
 .bienvenida {
