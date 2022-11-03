@@ -1,35 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title> Contacto - Designeiss </title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- Iconos  -->
+    <script src="https://kit.fontawesome.com/b582023f22.js" crossorigin="anonymous"></script>
+  
+    <title>Designeiss</title>
+  </head>
+  <body>
     <!-- Header -->
     <header>
-        <div id="logo-header">
-          <img class="logoheader" src="images/DH.png" alt="Designeiss" />
-        </div>
-        <div id="button-nav">
-          <nav>
-            <ul>
-              <li class="liNav"><button><a class="button-nav" href="index.html">Inicio</a></button></li>
-              <li class="liNav"><button><a class="button-nav" href="servicios-dh.html">Servicios</a>
-              </button></li>
-              <li class="liNav"><button>
-                <a class="button-nav" href="tienda-dh.html">Tienda Online</a>
-              </button></li>
-              <li class="liNav"><button>
-                <a class="button-nav" href="contacto-dh.html">Contacto</a>
-              </button></li>
-              <li class="liNav"><button><a class="button-nav" href="blog.html">Blog</a></button></li>
+      <nav class="navbar navbar-expand-lg navbar-light  style="background-color: #e3f2fd;>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"> <img  class="logoHeader" src="images/DH.png" alt="Logotipo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item button">
+                <a class="nav-link active" aria-current="page" href="servicios-dh.html">Servicios</a>
+              </li>
+              <li class="nav-item button">
+                <a class="nav-link" href="tienda-dh.html">Tienda Online</a>
+              </li>
+              <li class="nav-item button">
+                <a class="nav-link" href="contacto-dh.html">Contacto</a>
+              </li>
+              <li class="nav-item button">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
             </ul>
-          </nav>
+          </div>
         </div>
-      </header>
+      </nav>
+    </header>
+    <!-- Fin Header -->
 
     <main>
         <h1 class="titulo-contact">Contanos tu consulta</h1>
@@ -47,33 +64,104 @@
 
     </main>
 
-    <footer>  
-        <aside>
-            <div class="cont-footer">
-
-                <ul id="nosotros-footer">
-                    <li><a href=""></a>Designeiss</li>
-                    <li><a href="">Misión</a></li>
-                    <li><a href="">Visión</a></li>
-                    <li><a href="contacto-dh.html">Contacto</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                </ul>
-                <ul id="tienda-footer">
-                    <li><a href=""></a>Tienda Online</li>
-                    <li><a href="">Mi Cuenta</a></li>
-                    <li><a href="">¿Cómo Comprar?</a></li>
-                    <li><a href="">Opciones de pago</a></li>
-                    <li><a href="">Seguimiento de Pedidos</a></li>
-                </ul>
-
+    <!-- Footer -->
+    <footer class="text-center textColor fondoFooter">
+      <!-- Grid container -->
+      <div class="container">
+        <!-- Section Links -->
+        <section class="mt-5">
+          <!-- Grid row-->
+          <div class="row text-center d-flex justify-content-center pt-5">
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!" class="text-footer">Sobre Nosotros</a>
+              </h6>
             </div>
-        </aside>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!" class="text-footer">¿Cómo comprar?</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!" class="text-footer">Tienda</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!" class="text-footer">Contacto</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!" class="text-footer">Blog</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row-->
+        </section>
+        <!-- Section: Links -->
+  
+        <hr class="my-5" />
 
-        <div id="logo-footer">
-        <img class="logofooter" src="images/DH.png" alt="Designeiss">
-        </div>
-
+        <!-- Section: Social -->
+        <section class="text-center mb-5">
+          <a href="" class="text-social me-4">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="" class="text-social me-4">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="text-social me-4">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="text-social me-4">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="text-social me-4">
+            <i class="fab fa-github"></i>
+          </a>
+        </section>
+        <!-- Section: Social -->
+      </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <div
+           class="text-center p-3"
+           style="background-color: rgba(0, 0, 0, 0.2)"
+           >
+        © 2022 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"
+           >Designeiss.com</a
+          >
+      </div>
+      <!-- Copyright -->
     </footer>
+    <!-- Footer -->
+  </div>
+  <!-- Fin del container -->
+
+  <!-- JavaScript CDN -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"
+  ></script>
 
  
 
